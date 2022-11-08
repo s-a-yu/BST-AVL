@@ -576,64 +576,6 @@ void BinarySearchTree<Key, Value>::remove(const Key& key)
     delete find; 
 
 
-
-    // Node <Key, Value> *leftChild = find -> getLeft();
-    // Node <Key, Value> *rightChild = find -> getRight(); 
-
-    // Node <Key,Value> *pLeft = parentNode -> getLeft();
-    // Node <Key,Value> *pRight = parentNode -> getRight(); 
-
-    // //zero children
-    // if(leftChild == nullptr && rightChild == nullptr){
-    //   //remove node, update pointers, delete node 
-    //   //if at root, root is nullptr
-    //   if(find == root_ ){
-    //     root_ = nullptr;
-    //     return;
-    //   }
-    //   else{
-        
-    //     //update parent node pointers
-    //     if(pLeft == find){
-    //       pLeft = nullptr;
-    //     }
-    //     else if(pRight == find){
-    //       pRight = nullptr; 
-    //     }
-    //     delete find; 
-    //   }
-    // }
-    // //only left child 
-    // else if(leftChild != nullptr && rightChild == nullptr){
-    //   //promote left child 
-    //   if(pLeft == find){
-    //     //find is the left child of parent
-    //     pLeft = find -> getLeft();
-    //   }
-    //   else if(pRight == find){
-    //     //find is the right child of parent
-    //     pLeft = find -> getLeft(); 
-    //   }
-    //   //delete find node
-
-    //   delete find;
-    // }
-    // //only right child
-    // else if(rightChild != nullptr && leftChild == nullptr){
-    //   //promote right child 
-    //   if(pLeft == find){
-    //     //find is the left child of parent
-    //     pLeft = find -> getRight();
-    //   }
-    //   else if(pRight == find){
-    //     //find is the right child of parent
-    //     pRight = find -> getRight(); 
-    //   }
-    //   //delete find node
-    //   delete find;
-    // }
-    
-
 }
 
 //successor function
